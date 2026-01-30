@@ -1,0 +1,21 @@
+{
+  "name": "genii-fleet-dashboard",
+  "version": "1.0.0",
+  "description": "Genii Agent Fleet Management Dashboard - GitHub Pages Deployment",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "npx gh-pages -d ."
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["genii", "fleet", "dashboard", "ai-agents"],
+  "author": "Genii AI",
+  "license": "MIT",
+  "homepage": "https://github.com/genii-ai/fleet-dashboard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genii-ai/fleet-dashboard.git"
+  }
+}
